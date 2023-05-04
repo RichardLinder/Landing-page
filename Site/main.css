@@ -83,7 +83,7 @@ display: flex;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: blueviolet;
+    /* background-color: blueviolet; couleur de travaille */
 }
 /* article {
     display: flex;
@@ -144,6 +144,8 @@ textarea:focus, input:focus{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 0% 20%;
+padding: 5%;
 }
 #articleF{
     display: flex;
@@ -159,7 +161,7 @@ textarea:focus, input:focus{
     flex-direction: column;
     text-align: center;
     border-radius: 3%; 
-    padding: 2em;
+    padding: 5rem;
 }
 .couleurBlance{
     color: white;
@@ -168,15 +170,22 @@ textarea:focus, input:focus{
 /* --------------------------page 3----------------------------------- */
 .pageTrois{
     background-color: lightgray;
-  padding-top: 50%;
-  padding-bottom: 50%;
-  display: flex;
-    justify-content: center;
+    height: 40rem;
+    display: flex;
+    justify-content: flex-start;
     flex-direction: column;
+    text-align: center;
+  
+    align-items: center;
   }
-  #troisMain{
-    
-  }
+
+
+  #troisMain{padding: 5rem;
+width: 40rem;
+display: flex;
+flex-direction: column;
+}
+
 /*-------------------------page 4------------------------------------*/
 .pageQuatre {
     display: flex;
