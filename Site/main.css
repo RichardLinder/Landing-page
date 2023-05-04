@@ -180,7 +180,7 @@ padding: 5%;
   }
 
 
-  #troisMain{padding: 5rem;
+  #troisMain{padding-top: 5rem;
 width: 40rem;
 display: flex;
 flex-direction: column;
