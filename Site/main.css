@@ -262,10 +262,11 @@ button{
     flex-direction: column;
 }
 
-/* .pageSix{
+ .pageSix{
 display: flex;
 flex-direction: column;
-} */
+text-align: center;
+} 
 /* .pageSix> Article{
     
 display: flex;
