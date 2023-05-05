@@ -283,3 +283,21 @@ article {
     width:20rem;
     overflow: hidden;
 }
+
+.mainSix> h2{
+    padding: 1rem; 
+} 
+.mainSix> p {
+    padding:  2rem;
+}
+
+.blog {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.blog> a{
+    color: blue;
+
+}
