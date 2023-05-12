@@ -8,12 +8,7 @@
 }
 /* ------------------------------------ page 1 -------------------------------*/
 
-section{
-    width: 100%;
-    height: 100%;
-    min-width: 100%;
-    min-height:100% ;
-}
+
 
 
 
@@ -230,6 +225,106 @@ padding: 0% 35%;
     filter: grayscale(100%);
 }
 
+
+/* -------------------------------------------------------------------------------------------------------------part 4.5 */
+.pageQatreplus {
+    background-color: rgb(238, 238, 238);
+    padding-top: 125px;
+    padding-bottom: 300px;
+    text-align: center;
+}
+
+.section_5_img {
+    width: 117px;
+    height: 100px;
+    opacity: 40%;
+}
+
+.img_flex {display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+margin: 0 175px;
+padding-top: 60px;}
+
+
+/* pageSixMoins_____________________________________________________________________ */
+.pageSixMoins
+{
+    background-color: white;
+    padding: 175px 125px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.pageSixMoinsArcticle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+ .pageSixMoinsText>p {
+    color: rgb(154, 154, 154);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 45px;
+}
+
+
+
+#section6Heading {
+    font-size: 28px;
+    font-family: "Poppins-Bold";
+}
+
+
+.pageSixMoinsText {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.pageSixMoinsStats {
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+    margin-bottom: 17px;
+}
+
+p.pageSixMoins6 {
+    color: rgb(154, 154, 154);
+    font-size: 18px;
+    margin-top: 0;
+}
+
+#pageSixMoinsButton {
+    width: 165px;
+    border-radius: 5px;
+    background-color: rgb(95, 162, 255);
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 1px solid;
+    border-color: rgb(95, 162, 255);
+    color: white;
+}
+
+#pageSixMoinsbutton:hover {
+    background-color: #3174fa;
+    cursor: pointer;
+}
+
+
+#figure_creativity {
+    margin: 0;
+}
+
+.creativity_img {
+    width: 590px;
+}
+
+
+
 /* -----------------------------page 5 */
 .pageCinq {
     background-image:url(./Image/parallax.png);
@@ -300,4 +395,280 @@ article {
 .blog> a{
     color: blue;
 
+}
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    h1 {
+        font-size: 18px;
+    }
+    
+    h2 {
+        font-size: 16px;
+    }
+    
+    h3 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    a#sideBtn.gear_spin {
+        display: none;
+    }
+
+    #openBtn {
+        display: block;
+    }
+    
+    .menu ul {
+        display: none;
+    }
+
+    #top_facebook {
+        font-size: 18px
+    }
+
+    #top_twitter {
+        font-size: 18px;
+    }
+
+    #top_instagram {
+        font-size: 18px;
+    }
+
+    #text_top {
+        padding-top: 40px;
+    }
+
+    h2#startup {
+        font-size: 20px;
+    }
+
+    .custom-search {
+        width: 288px;
+        height: 52px;
+    }
+
+    .custom-search-input {
+        padding: 10px 120px 10px 20px;
+    }
+
+    .custom-search-botton {
+        width: 107px;
+        height: 41px;
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    #illustration {
+        width: 350px;
+    }
+
+    .slider-wrapper {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .slides-container {
+        width: 217px;
+        overflow:scroll;
+        gap: 20px;
+        position: relative;
+        left: 75px;
+        height: 343px;
+    }
+
+    .product {
+        width: 180px;
+        height: 180px;
+        padding: 40px 40px;
+    }
+
+    .fa-solid.fa-globe.fa-2xl {
+        font-size: 45px;
+    }
+
+    .fa-solid.fa-brush.fa-2xl {
+        font-size: 45px;
+    }
+
+    .fa-solid.fa-chess.fa-2xl {
+        font-size: 45px;
+    }
+
+    .section1_h3 {
+        font-size: 14px;
+    }
+    
+    .section1_text {
+        font-size: 10px;
+    }
+
+    #figure_globe {
+    padding: 10px 0;
+    }
+
+    #figure_paint {
+        padding: 10px 0;
+    }
+
+    #figure_chess {
+        padding: 10px 0;
+    }
+
+    p.text_gray {
+        font-size: 12px;
+    }
+
+    h2.sectionHeading {
+        font-size: 14px;
+    }
+
+    .block_profile {
+        flex-direction: column;
+    }
+
+    figure.profile_background img {
+        min-width: 150px;
+        max-width: 180px;
+        max-height: 180px
+    }
+
+    figure.profile_background .top-left {
+        bottom: 150px;
+    }
+
+    .profile_job {
+        font-size: 12px;
+    }
+
+    #backgroundSection4 {
+        justify-content: center;
+    }
+
+    #section_4_button {
+        margin: 15px;
+        padding: 8px;
+        width: 135px;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .img_flex {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    
+    p#text_white {
+        width: 300px;
+    }
+
+    #section_6 {
+        padding: 175px 35px;
+    }
+    
+    #section6Heading {
+        font-size: 16px;
+    }
+
+    p#section_6_text {
+        font-size: 11px;
+    }
+
+    p.textGray_Section6 {
+        font-size: 14px;
+    }
+
+    #section_6_button {
+        width: 140px;
+        font-size: 18px;
+        padding: 8px 17px;
+    }
+
+    .creativity_img {
+        width: 250px;
+    }
+
+    #section_7 {
+        padding: 130px 30px;
+    }
+
+    .price1, .price2, .price3 {
+        width: 263px;
+    }
+
+    #sale {
+        font-size: 16px;
+        left: 117px;
+    }
+
+    h3.price_h3 {
+        font-size: 18px;
+    }
+
+    .price_amount {
+        font-size: 40px;
+    }
+
+    #dollarSign1 {
+        right: 93px;
+    }
+
+    #dollarSign2 {
+        right: 107px;
+    }
+
+    #dollarSign3 {
+        right: 117px;
+    }
+
+    th.headerCell_Price1 {
+        padding-right: 15px;
+    }
+
+    th {
+        padding-right: 50px;
+    }
+
+    th.headerCell_Price3 {
+        padding-right: 15px;
+    }
+
+    .price1_3_button {
+        padding: 15px 45px;
+    }
+
+    .price2_button {
+        padding: 15px 45px;
+    }
+
+    .price2_button {
+        padding: 15px 45px;
+    }
+
+    #section_8 {
+        padding: 130px 30px;
+    }
+
+    figure.blog_images {
+        width: 250px;
+        height: 187px;
+    }
+
+    .socialIcon_Footer {
+        gap: 20px;
+    }
+
+    nav.nav_Footer li {
+        font-size: 14px;
+    }
+
+    #section_Footer small {
+        font-size: 12px;
+    }
 }
