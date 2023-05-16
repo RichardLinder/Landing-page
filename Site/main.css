@@ -120,16 +120,20 @@ display: flex;
 
 .contenaireForm{
 width: fit-content;
-padding: .1rem
+padding: .1rem;
+
 }
 
 #formEmail{
     display: flex;
     flex-direction: row;
     background-color: white;
-    border-radius: 10%;
+    border-radius: 50%;
     padding: 0;
     margin: 0;
+    width: 500px;
+    border-radius: 50px;
+    height: 50px;
 }
 textarea:focus, input:focus{
     outline: none;
@@ -139,6 +143,15 @@ textarea:focus, input:focus{
    border-radius: 10%;
 }
 
+#buttonEmail
+{
+    background-color: #3174fa;
+    width: 6.5rem;
+height: 2.5rem;
+margin: auto;
+border: none;
+outline: none;
+}
 /* -------------------------------------PAGE 2------------------------------------------------------- */
 .pageDeux{
     padding: 10%;
