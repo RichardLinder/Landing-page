@@ -8,12 +8,11 @@
 
     --light-blue: rgb(139,195,245);
     --blue: #1294b8;
+    font-family: 'poppin',sans-serif;
 }
 /* ------------------------------------ page 1 -------------------------------*/
 
-.pageUn{
-    padding: 10rem;
-}
+
 
 .backgroudBlue {
     background: radial-gradient(var(--light-blue), var(--blue));
@@ -51,7 +50,7 @@ h1{
 }
 
 h2 {
-    font-size: 1.9em;
+    font-size: 1.2em;
     font-weight: bold;
     padding: 1.2rem;
 }
@@ -67,6 +66,10 @@ p{
 .logoS {
 
 display: flex;
+}
+.blanc{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
 }
 
 /* .logo{
@@ -133,8 +136,9 @@ textarea:focus, input:focus{
 }
 #inputEmail 
 {
-    border-style: none;
+   border-radius: 10%;
 }
+
 /* -------------------------------------PAGE 2------------------------------------------------------- */
 .pageDeux{
     padding: 10%;
@@ -179,6 +183,9 @@ textarea:focus, input:focus{
 }
 .gris{
     color: lightgray;
+}
+.fondGris{
+    background-color: lightgray;;
 }
 
 /* --------------------------page 3----------------------------------- */
@@ -413,10 +420,10 @@ button{
 
 
 /* Price ----------------------------------- */
-
 .sectionPrix{
-    background-color: grey;
+    text-align: center;
 }
+
 .prices{
     display: flex;
     justify-content: space-evenly;
@@ -424,21 +431,84 @@ button{
 }
 .price{
     flex: 1;
-    border-radius: 10%;
+    border-radius: 3%;
     background-color: white;
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: 1em;
     height: 30em;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .price>p {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex: 1;
+    text-align: center;
+    padding: 0 15px;
 }
 
 
+.price>h2{
+display: flex;
+
+justify-content: center;
+}
+.dollar{
+    color:#3174fa;
+    display: flex;
+    align-items: start;
+}
+
+.chiffre{
+    color: #3174fa;
+    display: flex;
+    font-size: 2.5rem;
+    align-items: center;
+}
+.parMois{
+    display: flex;
+    align-items: end;
+}
+
+
+.price>button{
+
+    width: 80%;
+    margin: 1rem;
+    background-color: white;
+    border-color: #3174fa;
+}
+#joinNow{
+    background-color: #3174fa;
+    color: white;
+    border-color: #3174fa;
+}
+.fa-circle-check{
+    color: green;
+}
+
+.fa-circle-xmark{
+    color: red;
+}
+
+/* special */
+#special{
+    position: relative;
+}
+
+#solde{
+    background-color: blue;
+    position: absolute;
+    right: 0cm;
+    top: 0;
+    height: 4rem;
+    border-radius: 0% 3% 0% 3%;
+}
+#solde>p{
+
+    color: white;
+}
 
 /* ---------------------Page 6 */
 
