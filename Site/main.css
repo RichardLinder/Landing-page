@@ -53,6 +53,7 @@ h1{
 h2 {
     font-size: 1.9em;
     font-weight: bold;
+    padding: 1.2rem;
 }
 p{
     font-size: 1.3em;
@@ -278,8 +279,12 @@ padding: 2% 25%;
     opacity: 1;
 }
 
-background-color: white;
-border-radius: 50%;
+i{
+    background-color: white;
+    border-radius: 50%;
+
+}
+
 
 /* -------------------------------------------------------------------------------------------------------------part 4.5 */
 .pageQatreplus {
@@ -301,6 +306,7 @@ flex-wrap: wrap;
 justify-content: space-evenly;
 margin: 0 175px;
 padding-top: 60px;}
+
 
 
 /* pageSixMoins_____________________________________________________________________ */
@@ -404,6 +410,36 @@ button{
     margin: auto;
     
 }
+
+
+/* Price ----------------------------------- */
+
+.sectionPrix{
+    background-color: grey;
+}
+.prices{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10em;
+}
+.price{
+    flex: 1;
+    border-radius: 10%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1em;
+    height: 30em;
+    justify-content: space-between;
+}
+.price>p {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
 /* ---------------------Page 6 */
 
 .mainSix{
@@ -423,35 +459,48 @@ display: flex;
 flex-direction: row;
 } */
 
-article {
-    /* background-color: red; */
+/* article {
+    /* background-color: red; 
     display: flex;
-    flex-direction: row;
-}
+    flex-direction: row; 
+}*/
+
 .blog > figure {
     max-height: 100%;
     width:20rem;
     overflow: hidden;
 }
 
-.mainSix> h2{
-    padding: 1rem; 
-} 
 .mainSix> p {
-    padding:  2rem;
+    padding-bottom:  2rem;
+}
+.articleSix{
+    display: flex;
+    flex-direction: row; 
+    margin: 10rem;
 }
 
 .blog {
-    padding: 0 2rem;
+    flex: 1;
+    /* padding: 0 2rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: start;
+    align-items: flex-start;
 }
 .blog> a{
     color: blue;
+    margin-left: 0;
 
 }
 
+footer{
+    background-color:rgb(53, 52, 54);
+}
+small{
+    color: white;
+}
 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
