@@ -119,8 +119,8 @@ display: flex;
 }
 
 .contenaireForm{
-width: fit-content;
-padding: .1rem;
+/* width: fit-content;
+padding: .1rem; */
 
 }
 
@@ -128,7 +128,6 @@ padding: .1rem;
     display: flex;
     flex-direction: row;
     background-color: white;
-    border-radius: 50%;
     padding: 0;
     margin: 0;
     width: 500px;
@@ -140,17 +139,20 @@ textarea:focus, input:focus{
 }
 #inputEmail 
 {
-   border-radius: 10%;
+    margin-left: auto;
+    border-radius: 10%;
+    /* background-color: white; */
+    border-style: none;
 }
 
 #buttonEmail
 {
-    background-color: #3174fa;
+    background-color: var(--light-blue);
     width: 6.5rem;
 height: 2.5rem;
-margin: auto;
 border: none;
 outline: none;
+border-radius: 50px;
 }
 /* -------------------------------------PAGE 2------------------------------------------------------- */
 .pageDeux{
@@ -408,8 +410,13 @@ p.pageSixMoins6 {
 
 /* -----------------------------page 5 */
 .pageCinq {
-    background-image:url(./Image/parallax.png);
-    padding: 10%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image:url(./Image/parallax.png);
+        padding: 10%;
     
 }
 .mainCinq{
