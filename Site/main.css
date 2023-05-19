@@ -55,11 +55,17 @@ header {
     
 }
 
-nav  {
+.navHidden  {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     
+}
+.menusBurger{
+    display: none;
+}
+.menusFerme {
+    display: none;
 }
 
 a{
@@ -689,8 +695,28 @@ small{
 @media only screen and (max-device-width : 1400px) {
  
 
+   
 
     .navHidden{
+        display: none;
+    }
+
+    .menusBurger{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menusBurger>h2{
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .menusFerme{
+        display: flex;
+        background-color: black;
+    }
+    .hidden{
         display: none;
     }
 
@@ -700,6 +726,7 @@ small{
     
     h2 {
         font-size: 16px;
+        padding: 0;
     }
     
     h3 {
