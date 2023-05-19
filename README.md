@@ -1,3 +1,3 @@
 # Landing-page
 
-Page d'accuille pour s'exercé en css et htlm
+Page d'accuille pour s'exercer en css et htlm
