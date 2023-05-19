@@ -10,13 +10,28 @@
     --blue: #1294b8;
     font-family: 'poppin',sans-serif;
 }
-/* ------------------------------------ page 1 -------------------------------*/
-
-
+/* classe général */
 
 .backgroudBlue {
     background: radial-gradient(var(--light-blue), var(--blue));
 }
+
+.couleurBlance{
+    color: white;
+}
+.gris{
+    color:gray;
+}
+.fondGris{
+    background-color: lightgray;;
+}
+
+
+
+/* ------------------------------------ page 1 -------------------------------*/
+ 
+
+
 
 img{
     max-width: 100%;
@@ -50,7 +65,7 @@ h1{
 }
 
 h2 {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: bold;
     padding: 1.2rem;
 }
@@ -82,15 +97,27 @@ display: flex;
     text-align: center;
     padding: 10%;
     padding-top: 0;
+   
 
 
 }
 
+
+.custom-search-input {
+    padding: 10px 120px 10px 20px;
+}
+
+.buttonEmail {
+    width: 107px;
+    height: 41px;
+    padding: 8px 10px;
+    font-size: 14px;
+}
 #contenaireUn{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background-color: blueviolet; couleur de travaille */
+    align-items: flex-start;
 }
 /* article {
     display: flex;
@@ -118,11 +145,11 @@ display: flex;
 
 }
 
-.contenaireForm{
+/* .contenaireForm{ */
 /* width: fit-content;
 padding: .1rem; */
-
-}
+/* 
+} */
 
 #formEmail{
     display: flex;
@@ -193,15 +220,7 @@ border-radius: 50px;
     font-size: 1.8em;
 }
 
-.couleurBlance{
-    color: white;
-}
-.gris{
-    color: lightgray;
-}
-.fondGris{
-    background-color: lightgray;;
-}
+
 
 /* --------------------------page 3----------------------------------- */
 .pageTrois{
@@ -238,6 +257,7 @@ flex-direction: column;
 text-align: center;
 padding: 2% 25%;
 /* background-color: yellow; fond de travaille* */
+padding-bottom: 5rem;
 }
 .teams{
     display: flex;
@@ -252,6 +272,12 @@ padding: 2% 25%;
     padding: 0% 5% ;
 }
 
+h6 {
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 0.8rem;
+}
 .porteurPotrai{
     position: relative;
 }
@@ -296,8 +322,8 @@ padding: 2% 25%;
 
 .porteurPotrai:hover .resauxPersonelle {
     /* transform: translate(-15px, 115px);  */
-    top: 50px;
-    left: 50px;
+    top: 5px;
+    left: 5px;
     opacity: 1;
 }
 
@@ -352,9 +378,18 @@ padding-top: 60px;}
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 45px;
+    padding-left: 0;
+}
+.pageSixMoinsText>a{
+    padding-left: 0;
 }
 
-
+#pageSixMoins6Heading {
+    padding-left: 0;
+}
+.numbers{
+    padding-left: 0;
+}
 
 #section6Heading {
     font-size: 28px;
@@ -410,12 +445,14 @@ p.pageSixMoins6 {
 
 /* -----------------------------page 5 */
 .pageCinq {
+    z-index: 0;
         height: 100vh;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         background-image:url(./Image/parallax.png);
+        filter: brightness(40%);
         padding: 10%;
     
 }
@@ -426,15 +463,25 @@ p.pageSixMoins6 {
 }
 
 .mainCinq> h2  {
-margin: auto;
+    color: white;
+    margin: auto;
+    padding-bottom: 3rem;
+
 }
 .mainCinq> p  {
+    z-index: 2;
+    color: white;
     margin: auto;
+    padding-bottom: 3rem;
     }
-button{
+    button{
     width: 6.5rem;
     height: 2.5rem;
     margin: auto;
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    border-color: white;
+    border-style: solid;
     
 }
 
@@ -470,10 +517,15 @@ button{
 
 
 .price>h2{
-display: flex;
-
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
+
+.price>h3{
+    padding: 3rem;
+    
+}
+
 .dollar{
     color:#3174fa;
     display: flex;
@@ -498,6 +550,7 @@ justify-content: center;
     margin: 1rem;
     background-color: white;
     border-color: #3174fa;
+    color: var(--light-blue);
 }
 #joinNow{
     background-color: #3174fa;
@@ -518,12 +571,12 @@ justify-content: center;
 }
 
 #solde{
-    background-color: blue;
+    background-color: var(--blue);
     position: absolute;
     right: 0cm;
     top: 0;
     height: 4rem;
-    border-radius: 0% 3% 0% 3%;
+    border-radius: 0% 10% 0% 10%;
 }
 #solde>p{
 
@@ -557,13 +610,15 @@ flex-direction: row;
 
 .blog > figure {
     max-height: 100%;
-    width:20rem;
+    width:30rem;
     overflow: hidden;
+    border-radius: 1.5%;
 }
 
 .mainSix> p {
     padding-bottom:  2rem;
 }
+
 .articleSix{
     display: flex;
     flex-direction: row; 
@@ -580,20 +635,48 @@ flex-direction: row;
     align-items: flex-start;
 }
 .blog> a{
-    color: blue;
+    color: var(--light-blue);
     margin-left: 0;
 
 }
+.blog>p {
+    width: 80%;
+    
+}
+
+.blog>h3{
+    padding: 2rem;
+}
+/* footer ____________________________________________________ */
+
 
 footer{
     background-color:rgb(53, 52, 54);
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.footerLogo{
+    display: flex;
+    justify-content: center;
 }
 small{
     color: white;
 }
+.footerLogo>p {
+    padding: 1em;
+}
 
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (max-device-width : 1000px) {
+
+
+    .navHidden{
+        display: none;
+    }
+
     h1 {
         font-size: 18px;
     }
@@ -605,6 +688,17 @@ small{
     h3 {
         font-size: 0.875em;
     }
+    .figureChat {
+        width: 20rem;
+        height: 100%;
+    }
+
+    .contenaireMainUn{
+        flex-direction: column;
+    }
+    #articleF{
+        flex-direction: column;
+    }
 
     p {
         font-size: 0.75em;
@@ -615,6 +709,18 @@ small{
     }
     .pageDeux{
         display: flex;
+        flex-direction: column;
+    }
+    .teams{
+        flex-direction: column;
+    }
+    .img_flex {
+        flex-direction: column;
+    }
+    .prices{
+        flex-direction: column;
+    }
+    .articleSix{
         flex-direction: column;
     }
 
