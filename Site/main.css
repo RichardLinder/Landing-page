@@ -61,10 +61,10 @@ header {
     justify-content: space-around;
     
 }
-.menusBurger{
+.menuBurger{
     display: none;
 }
-.menusFerme {
+.menuFerme {
     display: none;
 }
 
@@ -701,18 +701,18 @@ small{
         display: none;
     }
 
-    .menusBurger{
+    .menuBurger{
         display: flex;
         flex-direction: column;
     }
 
-    .menusBurger>h2{
+    .menuBurger>h2{
         padding: 0;
         margin: 0;
 
     }
 
-    .menusFerme{
+    .menuFerme{
         display: flex;
         background-color: black;
     }

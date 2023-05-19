@@ -1,9 +1,9 @@
-let menusBurger=document.getElementById("menusBurger");
-let menusFerme=document.getElementById("menuFerme");
+let menuBurger=document.getElementById("idMenuBurger");
+let menuFerme=document.getElementById("idMenuFerme");
 
 function ouvrireMenu(){
-    // menusBurger.classList.remove('hidden');
-    // menusFerme.classList.add('hidden')
+    // menuBurger.classList.remove('hidden');
+    // menuFerme.classList.add('hidden')
 
     console.log("test");
 }
